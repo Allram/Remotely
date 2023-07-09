@@ -25,6 +25,10 @@ on:
         description: 'Server Runtime Identifier'     
         required: false
         default: "linux-x64"
+      serverUrl:
+        description: 'Server Url'     
+        required: false
+        default: "https://remotely.fladby.org"        
 
 jobs:
 
